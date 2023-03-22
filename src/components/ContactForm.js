@@ -35,9 +35,6 @@ const ContactForm = () => {
       }
     );
     setButtonText("Send");
-    let result = await response.json();
-    setFormDetails(formInitialDetails);
-    console.log(result);
   };
 
   return (
