@@ -1,0 +1,36 @@
+.newsletter-bx {
+    background: rgb(7, 18, 34);
+    border-radius: 55px;
+    color: #fff;
+    padding: 55px 85px;
+    margin-bottom: 80px;
+  }
+  .newsletter-bx h3 {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 1.2em;
+  }
+  
+  .newsletter-bx input {
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    background-color:#0B192E;
+    border: 1px solid #01FEFF;
+    border-radius: 5px;
+    padding: 15px 15px;
+  }
+  .newsletter-bx Button {
+    background-color:#01FEFF;
+    padding: 20px 65px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 18px;
+  }
+
+  @media only screen and (max-width: 395px){
+    .newsletter-bx h3{
+       font-size: 1em;
+    }
+  }
