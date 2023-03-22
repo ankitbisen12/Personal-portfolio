@@ -24,7 +24,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch(
+    const response = await fetch(
       "https://contact-us-5f656-default-rtdb.firebaseio.com/contact.json",
       {
         method: "POST",
